@@ -1,0 +1,73 @@
+header
+{
+	position: absolute;  /** position me permite manejar la posición **/
+	background-color: #0190C1; /** me permite asignar un color **/
+	width: 100%;  /** ancho del margen **/
+	height:70px; /** alto del margen **/
+	left: 0px; /** me permite desplazar el elemento de izquierda a derecha **/
+	top: 0px; /** me permite desplazar el elemento arriba y abajo **/
+
+	box-shadow: 0 5px 5px 0 rgba(0,0,0.4);
+}
+
+header a
+{
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 150px;
+	font-color:#000;
+	left: -140px;
+}
+
+footer
+{
+	position: absolute;
+	background-color: #0190C1; /** me permite asignar un color **/
+	width: 100%;
+	height: 70px;
+	top: 588px;
+	left:0px;
+}
+
+
+
+p
+{
+	font-size: 12px;
+}
+
+section p
+{
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	width: 400px;
+	text-align: justify; /** justificar el texto **/
+}
+
+.sec2
+{
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	width: 400px;
+	text-align: justify; /** justificar el texto **/
+}
+
+.sec3
+{
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	width: 400px;
+	text-align: justify; /** justificar el texto **/
+}
+
+
+aside img
+{
+	position: absolute; /** posicion**/
+	left: 570px; 
+	top: 100px;
+}
